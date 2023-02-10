@@ -1,0 +1,217 @@
+/*####################################################*/
+/* Reset */
+
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+
+}
+
+
+/*####################################################*/
+/*Estilos GENERICOS */
+body{
+
+
+
+	font-family: "preconnect";
+
+}
+
+body #fondo{
+	
+}
+
+/*####################################################*/
+/*####################################################*/
+/*####################################################*/
+/*__________________Estilos de HOME__________________*/
+/*FONDOS */
+body #fondo{
+	display: flex;
+	flex-flow: column wrap;
+
+
+}
+body #fondo #fondo_home_1{
+	background-image: url("../img/home_fondo_1.png") ;
+	width: 100%;
+	height: 100%;
+	background-size: 1300px 700px;
+	background-repeat: no-repeat;
+
+
+	
+
+}
+
+body #fondo #fondo_home_2{
+	background-image: url("../img/home_fondo_2.png") ;
+	width: 100%;
+	height: 700px;
+	background-size: 1300px 700px;
+	background-repeat: no-repeat;
+
+
+	
+
+}
+
+#fondo_home_3{
+	background-image: url("../img/home_fondo_3.png") ;
+		width: 100%;
+	height: 700px;
+	background-size: 1300px 700px;
+	background-repeat: no-repeat;
+
+
+}
+
+/*#############################################*/
+/*____________Header____________*/
+/*___Header general___*/
+
+
+header{
+	width:100%;
+	padding:20px;
+
+	/*_____Flex______*/
+	/*display: flex;
+	flex-direction: row;*/
+
+}
+
+
+/*___Logo___*/
+header img{
+	width:130px;
+}
+
+/*___Titulo del logo___*/
+header h1{
+	font-size: 23px;
+
+}	
+
+header nav{
+	margin-top:15px;
+	background-color: rgba(255, 255, 255, 0.4);
+	text-align: right;	
+
+}
+
+header nav ul{
+	list-style: none;
+	word-spacing:30px;
+	text-align: right;
+	
+
+}
+
+header nav ul li{
+	display: inline-block;
+	font-size: 20px;
+}
+
+header nav ul li a{
+	text-decoration:none;
+	color:black;
+ 	/*o es mejor margin-left: 10px;??? para separar
+ 	el espacio de los botones del nav?*/
+
+ }
+
+
+/*____________Main____________*/
+main{
+	padding:35px;
+	text-align:right;
+	margin-bottom:120px;
+}
+
+main h1{
+	margin-bottom: 20px;
+	font-size: 50px;
+	color: red;
+	text-shadow: -1.5px -1px 1.3px black;
+	margin-right: 50px;
+
+	font-style: italic;
+
+}
+
+main p{
+	margin-bottom:70px;	
+
+}
+
+main h3{
+		margin-left: 900px;
+		background-color: white;
+		
+		border: 2px solid white;
+		border-radius: 36px;
+
+		text-align: center;
+		box-shadow: 1px 1px 10px gray;
+
+}
+
+
+
+/*____________Foooter____________*/
+#home_fondo_3, footer{
+	text-align: right;
+	background-color: rgba(255, 255, 255, 0.3);
+
+	margin-top: 600px;
+
+
+}
+footer ul li{
+	list-style: none;
+	display: inline-block;	
+}
+
+footer ul li img{
+	width:40px;
+	color:black;
+
+}
+
+footer h3{
+	text-align: center;
+}
+
+/*####################################################*/
+/*####################################################*/
+/*####################################################*/
+/*__________________Estilos de HOME__________________*/
+/*FONDOS */
+
+body #blog_fondo_1{
+	background-image: url("../img/blog_fondo_1.png") ;
+	width: 100%;
+	height: 700px;
+	background-size: 1300px 700px;
+	background-repeat: no-repeat;
+
+	position: fixed;
+}
+
+body #blog_fondo_1 h2{
+
+}
+
+body #blog_fondo_1 p{
+	text-align: justify;
+	font-size: 30px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+#blog_h2{
+
+}
